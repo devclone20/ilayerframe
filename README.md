@@ -32,14 +32,14 @@ you send them to **iIrys Frame** to attach the agent soul + metadata and seal th
 
 ```mermaid
 flowchart LR
-  A["LAYER FRAME<br/>make the layers<br/>(this repo)"] -->|export| B["iIrys Frame<br/>soul + metadata · seal on Irys<br/>(coming soon)"]
+  A["LAYER FRAME<br/>make the layers<br/>(this repo)"] -->|export| B["iIrys Frame<br/>soul + metadata · seal on Irys"]
   B -->|tokenURI| C["CLONE FRAME<br/>mint the iNFT · Plaza"]
 ```
 
 1. **LAYER FRAME (here)** — split an image into clean layers (background, traits, iQR,
    description), compose the final art and export the stack.
 2. **iIrys Frame** — attach the agent soul (`neural_soul.md`) + metadata and seal everything
-   permanently on **Irys** (produces the `tokenURI`). *(separate repo, coming soon)*
+   permanently on **Irys** (produces the `tokenURI`). Repo: [devclone20/iIrysframe](https://github.com/devclone20/iIrysframe).
 3. **CLONE FRAME** — mint the layered art as an **iNFT** (agent + NFT) on Base and list it in
    the Plaza marketplace. Repo: [devclone20/clone-frame](https://github.com/devclone20/clone-frame).
 

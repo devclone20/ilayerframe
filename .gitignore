@@ -57,3 +57,7 @@ tmp/
 temp/
 *.local
 scratch/
+
+# ── training (generated in CI, uploaded as artifact) ─────────────────────────
+training_reports/
+__pycache__/
